@@ -1,0 +1,87 @@
+#ss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.card-podcast a img {
+    width: 160px;
+    height: 155px;
+    border-radius: 30px;
+}
+.card-img {
+    position: relative;
+}
+
+.baslik{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+}
+.card-img  span{
+    position: absolute;
+    left: 0;
+    padding: 12px;
+    transition: 0.3s;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+
+.card-img:hover{
+    transform: scale(1.1);
+    z-index: 0.7;
+   
+}
+
+
+@media(max-width:600px){
+    #ss{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
+    
+    .card-podcast a img {
+        width: 160px;
+        height: 155px;
+        border-radius: 30px;
+    }
+    .card-img {
+        position: relative;
+        display: inline;
+    }
+    
+    .baslik{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        color: white;
+        font-weight: bolder;
+        padding: 20px;
+    }
+    .card-img  span{
+        position: absolute;
+        left: 0;
+        padding: 12px;
+        transition: 0.3s;
+        color: white;
+        font-weight: bolder;
+        
+    }
+    
+    
+    .card-img:hover{
+        transform: scale(1.1);
+        z-index: 0.7;
+       
+    }
+}
+
+

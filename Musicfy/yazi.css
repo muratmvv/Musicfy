@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.yazi{
+    background-color: darkgrey;
+    
+}
+h3{
+    margin-left:400px ;
+}
+
+@media(max-width:600px){
+ 
+    .yazi{
+        background-color: darkgrey;
+        flex-direction: column;
+        
+    }
+  
+}
+
